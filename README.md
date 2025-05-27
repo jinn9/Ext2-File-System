@@ -22,7 +22,7 @@ To interface with virtual images, you first need to mount the file system (instr
 If you have root access on a Linux machine (or Linux virtual machine), you can use _mount_ to mount the disk into your file system and to peruse its contents. Note: this requires _sudo_, so you will need to do this on a machine (or virtual machine) that you administer. 
 You can also use a tool called _fuse_ that allows you to mount a file system at user-level.
 
-1. Create a directory in /tmp and go there
+1. Create a directory in /tmp and cd into it
 ```
 mkdir –m 700 /tmp
 cd /tmp
